@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 08, 2022 at 04:16 AM
+-- Generation Time: Dec 09, 2022 at 04:34 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -51,7 +51,18 @@ INSERT INTO `stock` (`id`, `product_name`, `product_price`, `product_image`) VAL
 (10, 'Apple Watch Series 7', 799, './images/series7.jpeg'),
 (11, 'Apple Watch SE', 799, './images/watchse.jpeg'),
 (12, 'Google Pixel 6', 599, './images/pixel6.jpeg'),
-(13, 'Google Pixel 6 Pro', 799, './images/pixel6pro.png');
+(14, 'Galaxy S22', 799, './images/s22small.jpeg'),
+(15, 'Galaxy S22 Ultra', 1199, './images/s22ultranew.jpeg'),
+(16, 'Galaxy Z Flip 3', 999, './images/zflip3.jpeg'),
+(17, 'Galaxy Z Fold 3', 1699, './images/zfold3.jpeg'),
+(18, 'OPPO Find X5 Pro', 1199, './images/oppofindx5.jpeg'),
+(19, 'Sony Xperia 1 iii', 1199, './images/sonyxperia1.webp'),
+(20, 'OPPO A93', 249, './images/oppoa93.png'),
+(21, 'OPPO Reno 7 Pro', 399, './images/reno7pro.webp'),
+(22, 'Xiaomi 11 Ultra', 1099, './images/xiaomi11ultra.jpeg'),
+(23, 'Xiaomi 12', 799, './images/xiaomi12.png'),
+(24, 'OnePlus 10 Pro', 999, './images/oneplus10pro.jpeg'),
+(29, 'OnePlus Nord CE 2', 399, './images/nordce.png');
 
 --
 -- Indexes for dumped tables
@@ -71,7 +82,7 @@ ALTER TABLE `stock`
 -- AUTO_INCREMENT for table `stock`
 --
 ALTER TABLE `stock`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
